@@ -1,0 +1,2 @@
+xmin ymin xmax ymax width height
+0 0 1170 780 1169 779

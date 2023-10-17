@@ -1,0 +1,2 @@
+xmin ymin xmax ymax width height
+0 0 1982 1087 1983 1088
