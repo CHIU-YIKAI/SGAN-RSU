@@ -13,10 +13,10 @@ from sgan.TrajFreqMap import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model_path', default=None, type=str)
-parser.add_argument('--num_samples', default=20, type=int)
+parser.add_argument('--num_samples', default=1, type=int)
 parser.add_argument('--dset_type', default='test', type=str)
 parser.add_argument('--dataset_name', default=None, type=str)
-parser.add_argument('--scale', default=12.8, type=float)
+parser.add_argument('--scale', default=1280, type=float)
 
 def get_generator(checkpoint, dset):
     args = AttrDict(checkpoint['args'])

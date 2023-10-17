@@ -29,7 +29,7 @@ torch.backends.cudnn.benchmark = True
 parser = argparse.ArgumentParser()
 
 # Dataset options
-parser.add_argument('--dataset_name', default='06221211', type=str)
+parser.add_argument('--dataset_name', default='bookstore0', type=str)
 parser.add_argument('--delim', default='\t')
 parser.add_argument('--loader_num_workers', default=4, type=int)
 parser.add_argument('--obs_len', default=8, type=int)
@@ -108,7 +108,7 @@ parser.add_argument('--best_k', default=10, type=int)
 parser.add_argument('--output_dir', default=os.getcwd())
 parser.add_argument('--print_every', default=100, type=int)
 parser.add_argument('--checkpoint_every', default=100, type=int)
-parser.add_argument('--checkpoint_name', default='PDTyS_G_06221211')
+parser.add_argument('--checkpoint_name', default='checkpoint')
 parser.add_argument('--checkpoint_start_from', default=None)
 parser.add_argument('--restore_from_checkpoint', default=1, type=int)
 parser.add_argument('--num_samples_check', default=5000, type=int)
